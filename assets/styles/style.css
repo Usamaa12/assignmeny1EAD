@@ -1,0 +1,147 @@
+
+body {
+    /*background-color: #F8F3F2;*/
+}
+.background-color{
+    background-color: #C6C1C1;
+}
+.navbar {
+    justify-content: flex-end; /* Align navbar items to the right */
+}
+.nav-item{
+    font-size: 20px;
+    color: black;
+    margin-right: 1rem;
+    /*font-family: "Bodoni 72 Oldstyle", serif;*/
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar-nav .nav-link{
+    font-weight: bold;
+}
+.hero-section{
+    background-color: #60C6F2;
+}
+.welcome-message {
+    font-size: 38px;
+    margin-top: 4rem !important;
+    margin-left: 22px;
+}
+.intro-message{
+    font-size: 22px;
+    margin-top: 2rem !important;
+    margin-left: 20px;
+}
+.right-image{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+.learn-more-btn{
+    background-color: #FF1212;
+    color: white;
+    border-radius: 10px;
+}
+.hire-me-btn{
+    background-color: #FF1212;
+    color: white;
+    border-radius: 10px;
+}
+.btn-more{
+    justify-content: end;
+    display: flex;
+    align-items: end;
+    padding-right: 4rem;
+}
+
+
+.skill-section {
+    background-color: #F8F3F2;
+    padding: 30px 0;
+    text-align: center; /* Center the text and content */
+
+
+}
+
+.skill-section h1 {
+    color: black;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.skill-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.skill-section h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+@media (max-width: 576px) {
+    .skill-section.text-center {
+        text-align: center;
+    }
+
+    .skill-section.text-center img {
+        margin: 0 auto;
+    }
+}
+
+.Contact-section {
+    text-align: center; /* Center-align the content */
+    background-color: #60C6F2;
+    width: auto;
+}
+.Contact-section h1{
+    color: white;
+    font-size: 40px;
+    padding: 15px;
+
+
+}
+
+.form-control {
+    margin: 5px; /* Add margin to all sides */
+    padding: 10px; /* Add padding to all sides */
+    width: 70%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the text fields horizontally */
+}
+
+/* Increase font size of Address and Message fields */
+#inputAddress,
+#feedback {
+    font-size: 16px;
+}
+
+.btn-primary {
+    margin: 12px; /* Add margin to the button */
+    padding: 10px 15px; /* Add padding to the button */
+    background-color: #FF1212; /* Set background color to red */
+    color: white; /* Set text color to white */
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between icons */
+    padding-down:   15px;
+}
+
+.icon {
+    width: 40px; /* Adjust the icon size */
+    height: 40px;
+
+}
+
+
